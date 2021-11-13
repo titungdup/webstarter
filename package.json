@@ -1,0 +1,26 @@
+{
+  "name": "simple-frontend-starter-template",
+  "version": "1.0.0",
+  "description": "A starter kit to quickly build UI using HTML, SASS, Tailwind, PostCSS and Javascript. Also includes stylelint and prettier for better code writing experience.",
+  "author": "Dhondup Lama",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "autoprefixer": "^10.4.0",
+    "parcel": "^2.0.1",
+    "postcss": "^8.3.11",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.4.1",
+    "stylelint": "^14.0.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0",
+    "tailwindcss": "^2.2.19"
+  }
+}
