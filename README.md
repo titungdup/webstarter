@@ -7,3 +7,6 @@ Includes:
 - PostCSS
 - Tailwind (with JIT)
 - Stylelint and Prettier to maintain code standard.
+- posthtml-include (simply ignore it if you don't want to use it)
+
+Run `yarn start`

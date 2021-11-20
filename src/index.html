@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <h1 class="text-[19px]">Frontend Boilerplate </span></h1>
-
+    <!-- 
+    - include element used from posthtml-include which is a posthtml plugin used to include a file from the src/partials directory 
+    - Simply remove the include tag if you don't want to use posthtml-include
+    -->
+    <include src="partials/main.html" />
     <script type="module" src="js/app.js" />
   </body>
 </html>
