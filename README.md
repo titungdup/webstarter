@@ -14,4 +14,4 @@ Run `yarn start`
 
 
 Clone using degit
-`npx degit git@github.com:duptitung/webstarter.git`
+`npx degit git@github.com:duptitung/webstarter.git [folder name]`
