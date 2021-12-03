@@ -8,5 +8,6 @@ Includes:
 - Tailwind (with JIT)
 - Stylelint and Prettier to maintain code standard.
 - posthtml-include (simply ignore it if you don't want to use it)
+- postcss-nested for nesting support in vanilla CSS
 
 Run `yarn start`

@@ -1,1 +1,1 @@
-console.log('Javascript log')
+console.log('Javascript log test')
