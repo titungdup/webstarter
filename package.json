@@ -1,28 +1,31 @@
 {
   "name": "simple-frontend-starter-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A starter kit to quickly build UI using HTML, SASS, Tailwind, PostCSS and Javascript. Also includes stylelint and prettier for better code writing experience.",
   "author": "Dhondup Lama",
   "license": "MIT",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "lint": "npx stylelint 'src/**/*.{css,scss}'",
+    "lint-fix": "npx stylelint 'src/**/*.{css,scss}' --fix"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.1",
-    "autoprefixer": "^10.4.0",
-    "parcel": "^2.0.1",
-    "postcss": "^8.3.11",
+    "@parcel/transformer-sass": "^2.3.2",
+    "autoprefixer": "^10.4.2",
+    "parcel": "^2.3.2",
+    "postcss": "^8.4.6",
     "postcss-nested": "^5.0.6",
-    "postcss-preset-env": "^6.7.0",
+    "postcss-preset-env": "^7.4.1",
+    "postcss-scss": "^4.0.3",
     "posthtml-include": "^1.7.2",
-    "prettier": "^2.4.1",
-    "stylelint": "^14.0.1",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.5.2",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.0.0",
-    "tailwindcss": "^2.2.19"
+    "stylelint-scss": "^4.1.0",
+    "tailwindcss": "^3.0.23"
   }
 }

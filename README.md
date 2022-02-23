@@ -11,7 +11,7 @@ Includes:
 - postcss-nested for nesting support in vanilla CSS
 
 Run `yarn start`
-
+Lint `yarn lint`
 
 Clone using degit
 `npx degit git@github.com:duptitung/webstarter.git [folder name]`
